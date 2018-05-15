@@ -1,0 +1,10 @@
+camunda.bpm:
+  admin-user:
+    id: patricio
+    password: patricio
+    firstName: patricio
+  filter:
+    create: All tasks
+my-variable:
+  valueOne: "hello"
+  valueTwo: "test"  
