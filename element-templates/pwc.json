@@ -1,0 +1,32 @@
+
+  {
+    "name": "Process PWC",
+    "id": "com.camunda.example.processPWC",
+    "appliesTo": [
+      "bpmn:Process"
+        
+
+    ],
+    "properties": [
+      {
+        "value": "PWC",
+        "label": "ID of Process",  
+        "type": "Hidden",
+       
+        "binding": {
+          "type": "property",
+          "name": "id"       
+
+         
+        }
+      }
+    ],
+    "entriesVisible": {
+      "_all": true,
+      "id": false
+     
+    }
+  }
+   
+
+    
